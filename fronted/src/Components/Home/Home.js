@@ -5,12 +5,10 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar';
 import About from '../About/About';
 import Skills from '../Skills/Skills';
-import Education from '../Education/Education';
 import Contact from '../Contact/Contact';
 import HomePage from '../Homepage/Homepage';
 import Projects from '../Projects/Projects';
 import Footer from '../Footer/Footer';
-import AdminDashboard from '../Admin/AdminDashboard';
 import AboutSection from '../AboutSection/AboutSection';
 import ProjectCard from '../Projects/ProjectCard/ProjectCard';
 import Achievements from '../Achievements/Achievements';

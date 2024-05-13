@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { ToastContainer } from 'react-toastify';
 import App from './App';
 import 'primeicons/primeicons.css';        
 import reportWebVitals from './reportWebVitals';

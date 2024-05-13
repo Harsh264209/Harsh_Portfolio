@@ -6,7 +6,6 @@ import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
 import {useNavigate} from 'react-router-dom'
 
 const FetchUsers = () => {
@@ -17,7 +16,7 @@ const FetchUsers = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:4000/fetch');
+        const response = await axios.get('https://backend-portfolio-1-n8u4.onrender.com/fetch');
         setUserData(response.data.visitors); // Store fetched data in state
         console.log("Data fetched successfully",userData);
       } catch (error) {

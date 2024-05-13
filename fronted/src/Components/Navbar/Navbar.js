@@ -1,16 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./style.css";
 import { useNavigate } from "react-router-dom";
-import MenuIcon from '@mui/icons-material/Menu';
 import logo from "../../Images/Harsh__7_-removebg-preview.png";
 
 const Navbar = () => {
   const navigate = useNavigate();
-  const [isMenuOpen, setMenuOpen] = useState(false);
+  // const [isMenuOpen, setMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setMenuOpen(!isMenuOpen);
-  };
+ 
 
   return (
     <div className="">

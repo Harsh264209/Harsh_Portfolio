@@ -2,7 +2,7 @@
 
 import React from 'react'
 import './style.css'
-import AboutSection from '../AboutSection/AboutSection'
+
 
 const About = () => {
   return (

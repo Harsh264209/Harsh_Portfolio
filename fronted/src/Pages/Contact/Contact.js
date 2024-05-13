@@ -15,7 +15,7 @@ const Contact = () => {
   const onSubmithandler=async(e)=>{
     try {
       e.preventDefault();
-       await axios.post('http://localhost:4000/new',credentials)
+       await axios.post('https://backend-portfolio-1-n8u4.onrender.com/new',credentials)
        console.log("Data submitted successfully");
        toast("Message sent sucessfully")
        setCredentials({ email: "", name: "", message: "" });

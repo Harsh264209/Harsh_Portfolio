@@ -3,7 +3,7 @@ import React from 'react'
 import './style.css'
 import heroImg from '../../Images/hero-man.png'
 import heroImg2 from '../../Images/hero2-img.avif'
-import { TypeAnimation } from 'react-type-animation';
+
 
 
 const HomePage = () => {

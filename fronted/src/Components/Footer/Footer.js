@@ -3,9 +3,6 @@
 
 import React from 'react'
 import './style.css'
-import logo from '../../Images/Harsh__8_-removebg-preview.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {Link} from 'react-router-dom'
 // import { faLinkedinIn} from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
