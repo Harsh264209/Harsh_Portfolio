@@ -1,22 +1,18 @@
 
 
 import React from 'react'
-import man from '../../Images/man1.png'
+import './style.css'
+import AboutSection from '../AboutSection/AboutSection'
 
 const About = () => {
   return (
-    <div className='md:my-20 '>
-        <h1 className='text-center md:ml-32 bg-gradient-to-r from-purple-500 to-blue-200 text-transparent bg-clip-text  text-6xl font-bold'>About</h1>
-        <div className="md:flex flex items-center md:flex-row md:mr-32 flex-col   md:ml-0 my-24 md:items-center">
-          <div className="w-72 mb-24 ">
-  <img src={man} alt="" className='w-100 mr-0 text-white'/>
-          </div>
-          <div className="div text-xl pl-12 md:text-sm text-gray-300">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis molestias a harum facilis necessitatibus?<br/>lorem15<br/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate provident accusamus, porro et facere nemo?<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusamus ex recusandae ducimus, voluptatum corporis!<br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem perferendis accusantium aut soluta aperiam animi!<br/>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta eaque molestias, facilis nihil ex dignissimos.<br/></p>
-          </div>
-        </div>
-
-    </div>
+   <main className='about-main-container' >
+    <section className='about-text-container' >
+      <h1 className='about-heading'>Hi, I’m Harsh. Nice to meet you.</h1>
+      <p className='about-para'>Hey there! I'm diving headfirst into the exciting world of web development. While I may be a beginner in this expansive  field, I've already started making waves by crafting websites for small businesses. Each project is not just an opportunity to create something beautiful but also a chance to learn and grow. Currently pursuing my studies in BCCA, I'm dedicated to expanding my  knowledge and skills, eager to push the boundaries of what I can achieve. Join me on this journey as we explore the boundless possibilities of the digital landscape together.</p>
+    </section>
+  
+   </main>
   )
 }
 

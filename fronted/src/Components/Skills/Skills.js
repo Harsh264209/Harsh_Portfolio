@@ -1,6 +1,7 @@
 
 import React from 'react'
 import SkillItem from '../SkillItem/SkillItem'
+import './style.css'
 
 
 const Skills = () => {
@@ -49,14 +50,14 @@ const Skills = () => {
 
 
   return (
-    <div className='md:my-96  ml-24'>
-         <h1 className='text-6xl font-bold  bg-gradient-to-r from-purple-500 to-blue-200 text-transparent bg-clip-text '>Skills 🎊</h1>
+    <div className='skill-main-container' >
+      <h1 style={{fontSize:'26px', fontWeight:"700",color:'#161616',textAlign:'center',marginTop:'190px'}}>My Technical Skills</h1>
          <div className=" md:flex md:flex-wrap flex flex-wrap my-12  md:ml-24 items-center " >
           {
             items.map((item)=>{
               return  <>
               
-              <div className="" key={item.id}>
+              <div className="skills-item-container" key={item.id}>
               <SkillItem  item={item} />
               </div>
               

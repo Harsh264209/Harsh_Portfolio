@@ -1,0 +1,86 @@
+
+.ProjectContact-main{
+    
+}
+.ProjectContact-section{
+
+ display: flex;
+ justify-content: center;
+margin: -40px auto;
+ width: 700px;
+ color: rgb(107, 106, 106);
+ font-size: 18px;
+}
+
+.input-container{
+
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+
+.input-container1{
+    display: flex;
+    padding: 20px;
+
+}
+.input-container2{
+    display: flex;
+    padding: 20px;
+    
+}
+.input-box{
+    border: 1px solid lightgray;
+    padding: 14px 44px;
+    width: 270px;
+    margin-top: 8px;
+}
+.project-textarea{
+    border: 1px solid lightgray;
+    margin-left: 40px;
+    width: 560px;
+    margin-top: 8px;
+}
+.project-submit-btn{
+    padding: 8px 56px;
+    border-radius: 36px;
+    border: 2px solid blueviolet;
+    color: blueviolet;
+    font-size: 20px;
+    margin-left: 240px;
+    margin-top: 18px;
+    font-weight: 400px;
+}
+.project-submit-btn:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+
+@media (max-width:586px){
+
+    .input-container1{
+        display: flex;
+        flex-direction: column;   
+    }
+    .input-container2{
+        display: flex; 
+        flex-direction: column;    
+    }
+    .ProjectContact-section{
+       margin-left: -40px;
+        
+    }
+    .project-submit-btn{
+        margin-left: 40px;
+    }
+}
+
+@media (min-width:586px){
+
+   
+    
+    
+
+}

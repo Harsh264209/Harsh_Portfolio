@@ -1,0 +1,69 @@
+
+.about-main-container{
+    width: 100%;
+    height:600px;
+    background-color: blueviolet;
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+    position: relative; 
+    
+}
+.about-heading{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 140px;
+    text-align: center;
+}
+.about-para{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+@media (min-width:586px){
+
+    .about-para{
+        color: white;
+        margin-top: 24px;
+        font-size: 20px;
+        padding: 0px 60px;
+    }
+    .about-heading{
+        color: white;
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: 70px;
+    }
+
+}
+
+@media (max-width:586px){
+
+    .about-heading{
+        color: white;
+        font-size: 22px;
+        font-weight: 700;
+        margin-top: 70px;
+    }
+
+    .about-para{
+        color: white;
+        margin-top: 24px;
+        font-size: 18px;
+        text-align: center;
+        text-align:inherit;
+        line-height: normal;
+        margin-bottom: 50px;
+        padding: 0px 20px;
+    }
+    .about-text-container{
+        margin: 0px auto;
+        text-align: center;
+        margin-bottom: 50px;
+       
+    }
+}

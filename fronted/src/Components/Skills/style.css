@@ -1,0 +1,20 @@
+
+.skill-main-container{
+    margin: 0px auto;
+
+}
+
+.skills-item-container{
+    /* margin: 20px auto; */
+  }
+
+@media (max-width:586px){
+
+    .skill-main-container {
+        margin: 20px auto; /* Adjust the top margin for smaller screens */
+      }
+      .skills-item-container{
+        margin: 10px auto;
+      }
+   
+}

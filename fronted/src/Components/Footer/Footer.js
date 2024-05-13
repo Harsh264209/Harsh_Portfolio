@@ -2,27 +2,49 @@
 
 
 import React from 'react'
+import './style.css'
 import logo from '../../Images/Harsh__8_-removebg-preview.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {Link} from 'react-router-dom'
+// import { faLinkedinIn} from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
   return (
-    <div>
-        <div className="w-full h-28 flex items-center justify-between  bg-gray-100 text-white">
-           <div className="w-24 ml-4 mr-20 ">
-            <img src={logo} alt="" className='w-full' />
-           </div>
-           <div className="div mr-14">
-              <p className='text-black font-light'>Made by harsh</p>
-           </div>
-           <div className="div w-36 mr-4">
-            <ul className='flex'>
-                <li className='text-black  mr-3 '><ion-icon name="logo-github"></ion-icon></li>
-                <li className='text-black mr-3'><ion-icon name="logo-linkedin"></ion-icon></li>
-                <li className='text-black'><ion-icon name="logo-whatsapp"></ion-icon></li>
-            </ul>
-           </div>
-        </div>
+   <main className='footer-main-container'>
+    <section className='footer-section1'>
+     <img src="" alt="" />
+     <h2 style={{textAlign:'center',fontSize:'24px'}}>Living, learning, & leveling up<br/>  one day at a time.</h2>
+    </section>
+
+    <section className='footer-section2' >
+     <div className="logo-cirlce" >
+    <a href="https://www.linkedin.com/in/harsh-satpute-43399023a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <i className="pi pi-linkedin"  ></i></a>
+    
+     </div>
+     <div className="logo-cirlce" >
+    <a href=""><i className="pi pi-github" ></i></a>
+     
+     </div>
+     <div className="logo-cirlce">
+    <a href="hsatpute38@gmail.com"><i className="pi pi-envelope"></i></a>
+     
+     </div>
+
+     {/* <div className="logo-cirlce">
+    
+     <i className="pi pi-instagram"></i>
+     </div> */}
+     <div className="logo-cirlce">
+    <a href="https://wa.link/9fn5rk"><i className="pi pi-whatsapp"></i></a>
+    
     </div>
+
+
+    </section>
+    
+   
+
+   </main>
   )
 }
 

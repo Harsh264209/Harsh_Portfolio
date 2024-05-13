@@ -1,0 +1,44 @@
+
+.navbar{
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100; 
+}
+.nav-btn{
+    border: 2px solid blueviolet;
+    padding:6px 12px;
+    border-radius: 18px;
+    margin-right: 60px;
+}
+.nav-btn:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: ease-in;
+}
+
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+
+@media (min-width:586px){
+
+
+    
+}
+
+@media (max-width:586px){
+
+    .logo{
+        margin-left: 20px;
+    }
+    .nav-btn{
+        margin-right: 20px;
+    }
+}
