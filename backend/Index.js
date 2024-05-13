@@ -32,7 +32,7 @@ app.use('/inquires',Router)
 
 
 app.get('/',(req,res)=>{
-    res.json({message:"Welcome server"})
+    res.json({message:"Welcome server 🤩🤩"})
 })
 
     
