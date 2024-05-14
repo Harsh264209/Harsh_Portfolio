@@ -18,7 +18,7 @@ const ProjectCard = () => {
          <p className='projectCard-para'>My Portfolio website.</p>
          <div className="link-container">
          <FontAwesomeIcon icon={faLink} />
-         <Link className='card-link'>Portfolio</Link>
+         <Link to='https://harsh-portfolio-m8j39lxbn-harsh264209s-projects.vercel.app/' className='card-link'>Portfolio</Link>
          </div>
         </section>
         <section className="project-card">
