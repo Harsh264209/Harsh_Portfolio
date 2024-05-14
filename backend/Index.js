@@ -13,7 +13,7 @@ const port=process.env.port || "mongodb://localhost:27017"
 const dburl=process.env.Mongo_Url
 
 app.use(cors({
-    origin:["http://localhost:3000"],
+    origin:["https://harsh-portfolio-xi.vercel.app"],
     methods:["POST","GET"],
     credentials:true
 }))
