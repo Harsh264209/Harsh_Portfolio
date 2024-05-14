@@ -19,7 +19,7 @@ const Contact = () => {
         headers: {
           'Content-Type': 'application/json'
         },
-        withCredentials: true // Ensure this is set if credentials are needed
+        withCredentials: false // Ensure this is set if credentials are needed
       })
        console.log("Data submitted successfully");
        toast("Message sent sucessfully")
