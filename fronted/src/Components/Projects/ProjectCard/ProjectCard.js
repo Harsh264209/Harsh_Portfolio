@@ -34,7 +34,7 @@ const ProjectCard = () => {
          <p className='projectCard-para'>Travel App</p>
          <div className="link-container">
          <FontAwesomeIcon icon={faLink} />
-         <Link className='card-link'>WonderWay</Link>
+         <Link to='https://way-wonder.vercel.app/' className='card-link'>WonderWay</Link>
          </div>
         </section>
         

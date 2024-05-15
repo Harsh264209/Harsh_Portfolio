@@ -19,7 +19,7 @@ const Footer = () => {
     
      </div>
      <div className="logo-cirlce" >
-    <a href=""><i className="pi pi-github" ></i></a>
+    <a href="https://github.com/Harsh264209"><i className="pi pi-github" ></i></a>
      
      </div>
      <div className="logo-cirlce">
